@@ -1,3 +1,11 @@
+import warnings
+
+import inline as inline
+import matplotlib
+
+warnings.filterwarnings('ignore')
+import os
+import numpy as np
 import pandas as pd
-df = pd.read_csv("new_dataset.csv")
-df
+from matplotlib import pyplot as plt
+import sklearn
